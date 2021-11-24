@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Sign Up Page</h1>
+    <h2>Sign Up with our portal and never miss any update!</h2>
+    <h3>
+        Enter all your credentials properly and remember the password should have minimum 5 characters and
+        you must 13 years old or above. 
+    </h3>
+    <form>
+        <label>
+            Name<br>
+            <input type="text" name="uname" required>
+        </label><br>
+        <label>
+            Username<br>
+            <input type="text" name="username" required>
+        </label><br>
+        <label>
+            Password<br>
+            <input type="password" name="pword" required>
+        </label><br>
+        <label>
+            Age<br>
+            <input type="number" name="age" min="13" required>
+        </label><br>
+        <input id="submit" type="submit" value="Submit" onclick="checkpword(this.form);">
+    </form>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

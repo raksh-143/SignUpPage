@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    color: #140B7F;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 300px;
+}
+#submit{
+    background-color: #019505;
+    color: white;
+    border: 0px;
+    font-size: 18px;
+}
+#submit:active{
+    color: green;
+    background-color: white;
+}
